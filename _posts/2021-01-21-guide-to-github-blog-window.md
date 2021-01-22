@@ -95,5 +95,28 @@ category: <span class="red">github blog making</span>
 ```
 이후, `_sass/variables.scss`의 `// Typography`에 `'Nanum Gothic'` 추가하기 
 
+
+#### 7. upload online
+
+- 이미 remote 되어있는 상황에서, 
+
+```bash
+$ cd C:/blog/{username}.github.io
+$ git status
+$ git add . 
+# 한꺼번에 변경사항 기록
+$ git commit -m "Add test"
+
+$ git push 
+```
+
+'C:/blog/{username}.github.io' 폴더에 파일을 생성하고 pull할 경우 github repository에 올라감. 
+
+브라우저에서 현재 깃허브 블로그 생성되었는지 확인 : 
+
+```html
+https://{username}.github.io/
+```
+
 ### Reference 
 - http://enshahar.com/%EB%B8%94%EB%A1%9C%EA%B7%B8/jekyll/pixyll/2017/11/14/blog-transferring/
