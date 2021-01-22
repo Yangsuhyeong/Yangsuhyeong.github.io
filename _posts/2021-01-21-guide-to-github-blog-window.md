@@ -120,3 +120,5 @@ https://{username}.github.io/
 
 ### Reference 
 - http://enshahar.com/%EB%B8%94%EB%A1%9C%EA%B7%B8/jekyll/pixyll/2017/11/14/blog-transferring/
+
+- https://devinlife.com/howto%20github%20pages/new-blog-from-template/
